@@ -1,0 +1,22 @@
+{
+  "name": "packtpub-free-ebook-checker",
+  "version": "1.0.0",
+  "description": "Simple script to check for the free ebook for the day.",
+  "main": "index.js",
+  "author": "Noel Martin Llevares <noelmartin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
